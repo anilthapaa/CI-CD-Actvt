@@ -1,0 +1,17 @@
+name: Check Node and NPM Versions
+
+on: 
+  push:
+
+jobs:
+  first-job:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Check Node.js version
+        run: node --version
+
+      - name: Check npm version
+        run: npm --version
