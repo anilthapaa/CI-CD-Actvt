@@ -1,4 +1,4 @@
-# employee_manager.py
+# This is a employee and manager Negotiation
 
 class Employee:
     """A class representing an employee."""
