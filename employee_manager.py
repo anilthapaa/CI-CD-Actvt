@@ -24,7 +24,7 @@ class Employee:
 
     def get_annual_salary(self):
         """Return the annual salary."""
-        return sel.salary * 12
+        return self.salary * 12
 
     def __str__(self):
         return f"{self.name} (ID: {self.emp_id}) earns ${self.salary:.2f}/month"
